@@ -125,7 +125,7 @@ void explain_deque() {
 }
 
 //Stacks 
-//Last in Last Go
+//Last in First Go
 void explain_stack() {
     stack<int>st;
 
