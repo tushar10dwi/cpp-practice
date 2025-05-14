@@ -51,7 +51,7 @@ int recur_binary_search(vector<int>v,int low,int high, int target) {
     else if(v[mid]<target) return recur_binary_search(v,mid+1,high,target);
     else if(v[mid]>target) return recur_binary_search(v,low,mid-1,target);
     
-
+    return -1;
 }
 
 int main()
